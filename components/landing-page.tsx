@@ -7,14 +7,14 @@ import { Input } from "@/components/ui/input"
 import { CheckCircle, Menu, X, ArrowRight, Star, Calendar, MapPin, Users, Fish } from 'lucide-react'
 import Image from 'next/image'
 import AquariamHero from './images/f4.jpg'
-import AquariamHero2 from './images/Top-5-Marine-Conservation-Programs-Abroad-02.jpg'
-import AquariamHero3 from './images/sealife-hunstanton-small.jpg'
-import AquariamHero4 from './images/yolanda_sanchez_field_sanne-crop-1024x772.jpg'
+import AquariamHero2 from './images/AquariamHero2.jpg'
+import AquariamHero3 from './images/AquariamHero3.jpg'
+import AquariamHero4 from './images/AquariamHero4.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export function LandingPageComponent() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <div className="min-h-screen bg-white text-gray-700 font-sans">
