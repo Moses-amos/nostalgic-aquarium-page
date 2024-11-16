@@ -1,7 +1,6 @@
 'use client'
-
-import { Inter } from 'next/font/google'
 import React, { useState } from 'react'
+import { Inter } from 'next/font/google'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { CheckCircle, Menu, X, ArrowRight, Star, Calendar, MapPin, Users, Fish } from 'lucide-react'
